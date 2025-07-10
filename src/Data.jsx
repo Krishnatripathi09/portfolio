@@ -14,10 +14,10 @@ export const links = [
     name: "Home",
     path: "home",
   },
-  {
-    name: "Services",
-    path: "services",
-  },
+  // {
+  //   name: "Services",
+  //   path: "services",
+  // },
   {
     name: "Skills",
     path: "skills",
@@ -30,18 +30,18 @@ export const links = [
     name: "Resume",
     path: "resume",
   },
-  {
-    name: "Testimonials",
-    path: "testimonial",
-  },
-  {
-    name: "Pricing",
-    path: "pricing",
-  },
-  {
-    name: "Blog",
-    path: "blog",
-  },
+  // {
+  //   name: "Testimonials",
+  //   path: "testimonial",
+  // },
+  // {
+  //   name: "Pricing",
+  //   path: "pricing",
+  // },
+  // {
+  //   name: "Blog",
+  //   path: "blog",
+  // },
   {
     name: "Contact",
     path: "contact",
@@ -281,21 +281,21 @@ export const skill = [
 ];
 
 export const project = [
-  {
-    id: 1,
-    img: digiCosmetics,
-    category: "Landing",
-    title: "digiCosmetics",
-    description:
-      "Landing page designed for selling cosmetic products. It typically includes a visually appealing design, easy navigation, and clear product descriptions.",
-    url: "https://digicosmetics.netlify.app",
-    sourceUrl: "https://github.com/khakiiman/digiCosmetics",
-  },
+  // {
+  //   id: 1,
+  //   img: digiCosmetics,
+  //   category: "Landing",
+  //   title: "digiCosmetics",
+  //   description:
+  //     "Landing page designed for selling cosmetic products. It typically includes a visually appealing design, easy navigation, and clear product descriptions.",
+  //   url: "https://digicosmetics.netlify.app",
+  //   sourceUrl: "https://github.com/khakiiman/digiCosmetics",
+  // },
 
   {
     id: 2,
     img: portfolio,
-    category: "Portfolio",
+   // category: "Portfolio",
     title: "Developer Portfolio",
     description:
       "This Portfolio involves creating a visually appealing and user-friendly website that showcases the skills and portfolio of a frontend developer.",
@@ -303,27 +303,27 @@ export const project = [
     sourceUrl: "https://github.com/khakiiman/portfolio",
   },
 
-  {
-    id: 3,
-    img: appleStore,
-    category: "Ecommerce",
-    title: "New Apple Store",
-    description:
-      "The new Apple Store landing page is a web page designed for showcasing and promoting Apple products, services, and features.",
-    url: "https://newapplestore.netlify.app/",
-    sourceUrl: "https://github.com/khakiiman/applestore",
-  },
+  // {
+  //   id: 3,
+  //   img: appleStore,
+  //   category: "Ecommerce",
+  //   title: "New Apple Store",
+  //   description:
+  //     "The new Apple Store landing page is a web page designed for showcasing and promoting Apple products, services, and features.",
+  //   url: "https://newapplestore.netlify.app/",
+  //   sourceUrl: "https://github.com/khakiiman/applestore",
+  // },
 
-  {
-    id: 4,
-    img: golsam,
-    category: "Blog",
-    title: "Golsam Sepahan",
-    description:
-      "A new design blog provides informative content related to the agricultural industry, including tips and advice on the use of fertilizers and pesticides. ",
-    url: "https://golsamsepahan.netlify.app",
-    sourceUrl: "https://github.com/khakiiman/golsam-sepahan",
-  },
+  // {
+  //   id: 4,
+  //   img: golsam,
+  //   category: "Blog",
+  //   title: "Golsam Sepahan",
+  //   description:
+  //     "A new design blog provides informative content related to the agricultural industry, including tips and advice on the use of fertilizers and pesticides. ",
+  //   url: "https://golsamsepahan.netlify.app",
+  //   sourceUrl: "https://github.com/khakiiman/golsam-sepahan",
+  // },
 ];
 
 export const cv = [

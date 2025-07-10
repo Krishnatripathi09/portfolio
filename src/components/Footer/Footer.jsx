@@ -153,43 +153,46 @@ export default function Footer() {
           <div className='flex justify-center lg:justify-start '>
             <div className='flex gap-[20px] '>
               <a
-                href='#'
+                href='https://x.com/Krishnat112010'
+                target='_blank'
                 className='text-titleColor text-h5Size transition-all duration-75 ease-[cubic-bezier(0.3,0,0.3,1)] '
               >
                 <FaTwitter className='text-titleColor dark:text-titleColorDark hover:text-primaryColor dark:hover:text-primaryColor' />
               </a>
-              <a
+              {/* <a
                 href='#'
                 className='text-titleColor text-h5Size transition-all duration-75 ease-[cubic-bezier(0.3,0,0.3,1)] hover:text-primaryColor '
               >
                 <FaFacebookSquare className='text-titleColor dark:text-titleColorDark hover:text-primaryColor dark:hover:text-primaryColor' />
-              </a>
+              </a> */}
               <a
-                href='#'
+                href='https://github.com/Krishnatripathi09/'
+                target='_blank'
                 className='text-titleColor text-h5Size transition-all duration-75 ease-[cubic-bezier(0.3,0,0.3,1)] hover:text-primaryColor '
               >
                 <FaGithub className='text-titleColor dark:text-titleColorDark hover:text-primaryColor dark:hover:text-primaryColor' />
               </a>
-              <a
+              {/* <a
                 href='#'
                 className='text-titleColor text-h5Size transition-all duration-75 ease-[cubic-bezier(0.3,0,0.3,1)] hover:text-primaryColor '
               >
                 <FaInstagram className='text-titleColor dark:text-titleColorDark hover:text-primaryColor dark:hover:text-primaryColor' />
-              </a>
-              <a
+              </a> */}
+              {/* <a
                 href='#'
                 className='text-titleColor text-h5Size transition-all duration-75 ease-[cubic-bezier(0.3,0,0.3,1)] hover:text-primaryColor '
               >
                 <FaTelegram className='text-titleColor dark:text-titleColorDark hover:text-primaryColor dark:hover:text-primaryColor' />
-              </a>
-              <a
+              </a> */}
+              {/* <a
                 href='#'
                 className='text-titleColor text-h5Size transition-all duration-75 ease-[cubic-bezier(0.3,0,0.3,1)] hover:text-primaryColor '
               >
                 <FaYoutube className='text-titleColor dark:text-titleColorDark hover:text-primaryColor dark:hover:text-primaryColor' />
-              </a>
+              </a> */}
               <a
-                href='#'
+                href='mailto:krishtripathi158@gmail.com'
+                target='_blank'
                 className='text-titleColor text-h5Size transition-all duration-75 ease-[cubic-bezier(0.3,0,0.3,1)] hover:text-primaryColor '
               >
                 <FaEnvelope className='text-titleColor dark:text-titleColorDark hover:text-primaryColor dark:hover:text-primaryColor' />
@@ -198,14 +201,14 @@ export default function Footer() {
           </div>
 
           <div className='flex justify-center uppercase tracking-[0.05em] text-titleColor dark:text-titleColorDark'>
-            &copy; 2023&nbsp; <span className='text-primaryColor'>ArvandCO</span>.
+            &copy; 2025&nbsp; <span className='text-primaryColor'>Krishna T</span>.
             All Rights Reserved
           </div>
 
-          <div className='uppercase tracking-[0.05em] text-titleColor dark:text-titleColorDark flex justify-center lg:justify-end'>
+          {/* <div className='uppercase tracking-[0.05em] text-titleColor dark:text-titleColorDark flex justify-center lg:justify-end'>
             Developed By&nbsp;{' '}
             <span className='text-primaryColor'>Iman Arvand</span>
-          </div>
+          </div> */}
         </div>
       </div>
     </footer>
