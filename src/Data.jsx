@@ -297,10 +297,10 @@ export const project = [
     img: portfolio,
    // category: "Portfolio",
     title: "Developer Portfolio",
-    description:
-      "This Portfolio involves creating a visually appealing and user-friendly website that showcases the skills and portfolio of a frontend developer.",
-    url: "http://imankhaki.netlify.app/",
-    sourceUrl: "https://github.com/khakiiman/portfolio",
+    description: "",
+     // "This Portfolio involves creating a visually appealing and user-friendly website that showcases the skills and portfolio of a frontend developer.",
+    url: "https://krishnatportfolio.vercel.app/",
+    sourceUrl: "https://github.com/Krishnatripathi09",
   },
 
   // {
@@ -329,9 +329,9 @@ export const project = [
 export const cv = [
   {
     id: 1,
-    title: "University of Tehran",
-    subtitle: "M.Sc. in Engineering",
-    date: "2014 - 2016",
+    title: "Savitri-Bai Phule Pune University",
+    subtitle: "Bachelor in Computer Engineering",
+    date: "2017-2021",
     description:
       "The Master of Science in Hydraulic Engineering program at the University of Tehran is a two-year postgraduate degree that provides students with advanced knowledge of water structural engineering.",
     category: "education",
