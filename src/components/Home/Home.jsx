@@ -12,6 +12,7 @@ import {
   FaTelegram,
   FaFacebookSquare,
   FaYoutube,
+ FaLinkedinIn,
   FaGithub,
   FaEnvelope,
 } from 'react-icons/fa';
@@ -60,12 +61,13 @@ const Home = () => {
             >
               <FaTwitter />
             </a>
-            {/* <a
-              href='#'
+            <a
+              href='https://www.linkedin.com/in/krishnakantt09/'
+              target='_blank'
               className='text-titleColor text-h5Size transition-all duration-75 ease-[cubic-bezier(0.3,0,0.3,1)] hover:text-primaryColor dark:text-textColorDark dark:hover:text-primaryColor hover:animate-bounce'
             >
-              <FaFacebookSquare />
-            </a> */}
+              <FaLinkedinIn />
+            </a>
             <a
               href='https://github.com/Krishnatripathi09'
               target="_blank" 

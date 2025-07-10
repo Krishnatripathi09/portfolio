@@ -2,6 +2,7 @@ import React from 'react';
 
 import {
   FaTwitter,
+  FaLinkedinIn,
   FaInstagram,
   FaTelegram,
   FaFacebookSquare,
@@ -159,12 +160,12 @@ export default function Footer() {
               >
                 <FaTwitter className='text-titleColor dark:text-titleColorDark hover:text-primaryColor dark:hover:text-primaryColor' />
               </a>
-              {/* <a
-                href='#'
+              <a
+                href='https://www.linkedin.com/in/krishnakantt09/'
                 className='text-titleColor text-h5Size transition-all duration-75 ease-[cubic-bezier(0.3,0,0.3,1)] hover:text-primaryColor '
               >
-                <FaFacebookSquare className='text-titleColor dark:text-titleColorDark hover:text-primaryColor dark:hover:text-primaryColor' />
-              </a> */}
+                <FaLinkedinIn className='text-titleColor dark:text-titleColorDark hover:text-primaryColor dark:hover:text-primaryColor' />
+              </a>
               <a
                 href='https://github.com/Krishnatripathi09/'
                 target='_blank'
@@ -191,7 +192,7 @@ export default function Footer() {
                 <FaYoutube className='text-titleColor dark:text-titleColorDark hover:text-primaryColor dark:hover:text-primaryColor' />
               </a> */}
               <a
-                href='mailto:krishtripathi158@gmail.com'
+                href='mailto:krishnatripathi158@gmail.com'
                 target='_blank'
                 className='text-titleColor text-h5Size transition-all duration-75 ease-[cubic-bezier(0.3,0,0.3,1)] hover:text-primaryColor '
               >

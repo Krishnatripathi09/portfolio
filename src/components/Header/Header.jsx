@@ -5,6 +5,7 @@ import { scrollToTop } from 'react-scroll/modules/mixins/animate-scroll';
 
 import {
   FaTwitter,
+  FaLinkedinIn,
   FaInstagram,
   FaTelegram,
   FaFacebookSquare,
@@ -134,43 +135,47 @@ const Header = () => {
             {/* Menu Social Buttons */}
             <div className='flex gap-[20px] mb-[30px] '>
               <a
-                href='#'
+                href='https://x.com/Krishnat112010'
+                target='_blank'
                 className='text-titleColor text-h5Size transition-all duration-75 ease-[cubic-bezier(0.3,0,0.3,1)] hover:text-primaryColor dark:text-titleColorDark dark:hover:text-primaryColor hover:animate-bounce'
               >
                 <FaTwitter />
               </a>
               <a
-                href='#'
+                href='https://www.linkedin.com/in/krishnakantt09/'
+                target='_blank'
                 className='text-titleColor text-h5Size transition-all duration-75 ease-[cubic-bezier(0.3,0,0.3,1)] hover:text-primaryColor dark:text-titleColorDark dark:hover:text-primaryColor hover:animate-bounce'
               >
-                <FaFacebookSquare />
+                <FaLinkedinIn />
               </a>
               <a
-                href='#'
+                href='https://github.com/Krishnatripathi09'
+                target='_blank'
                 className='text-titleColor text-h5Size transition-all duration-75 ease-[cubic-bezier(0.3,0,0.3,1)] hover:text-primaryColor dark:text-titleColorDark dark:hover:text-primaryColor hover:animate-bounce'
               >
                 <FaGithub />
               </a>
-              <a
+              {/* <a
                 href='#'
                 className='text-titleColor text-h5Size transition-all duration-75 ease-[cubic-bezier(0.3,0,0.3,1)] hover:text-primaryColor dark:text-titleColorDark dark:hover:text-primaryColor hover:animate-bounce'
               >
                 <FaInstagram />
-              </a>
-              <a
-                href='#'
+              </a> */}
+              {/* <a
+                href=''
                 className='text-titleColor text-h5Size transition-all duration-75 ease-[cubic-bezier(0.3,0,0.3,1)] hover:text-primaryColor dark:text-titleColorDark dark:hover:text-primaryColor hover:animate-bounce'
               >
                 <FaTelegram />
-              </a>
-              <a
+              </a> */}
+              {/* <a
                 href='#'
                 className='text-titleColor text-h5Size transition-all duration-75 ease-[cubic-bezier(0.3,0,0.3,1)] hover:text-primaryColor dark:text-titleColorDark dark:hover:text-primaryColor hover:animate-bounce'
               >
                 <FaYoutube />
-              </a>
+              </a> */}
               <a
-                href='#'
+                href='mailto:krishnatripathi158@gmail.com'
+                target='_blank'
                 className='text-titleColor text-h5Size transition-all duration-75 ease-[cubic-bezier(0.3,0,0.3,1)] hover:text-primaryColor dark:text-titleColorDark dark:hover:text-primaryColor hover:animate-bounce'
               >
                 <FaEnvelope />
