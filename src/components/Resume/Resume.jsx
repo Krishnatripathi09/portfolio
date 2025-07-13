@@ -68,7 +68,7 @@ const Resume = () => {
         </div>
          <div className="relative">
             {/* Floating WhatsApp Button */}
-            <a href="https://api.whatsapp.com/send?phone=919284640248&text=Hello%20cypher%20what's%20up%20!" 
+            <a href="https://api.whatsapp.com/send?phone=919284640248&text=Hi%20what's%20up%20!" 
                 className="fixed bottom-20 right-10 text-white rounded-full w-14 h-14 flex items-center justify-center z-50 glowing-whatsapp" 
                 target="_blank" 
                 rel="noopener noreferrer" 
