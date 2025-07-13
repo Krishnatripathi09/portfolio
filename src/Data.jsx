@@ -1,6 +1,6 @@
 import digiCosmetics from "./assets/digiCosmetics.png";
 import portfolio from "./assets/portfolio.png";
-import appleStore from "./assets/appleStore.png";
+import appleStore from "./assets/Website.png";
 import golsam from "./assets/golsam.png";
 
 import Testimonial1 from "./assets/testimonial1.jpg";

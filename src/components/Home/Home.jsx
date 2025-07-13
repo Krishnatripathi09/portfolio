@@ -95,6 +95,7 @@ const Home = () => {
             </a> */}
             <a
               href='mailto:krishnatripathi158@gmail.com' 
+              target='_blank'
               className='text-titleColor text-h5Size transition-all duration-75 ease-[cubic-bezier(0.3,0,0.3,1)] hover:text-primaryColor dark:text-textColorDark dark:hover:text-primaryColor hover:animate-bounce'
             >
               <FaEnvelope />
