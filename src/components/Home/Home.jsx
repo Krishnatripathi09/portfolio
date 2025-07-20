@@ -30,13 +30,13 @@ const Home = () => {
         <div className='relative top-[15%] sm:top-[-8%] p-3 w-full text-white grid gird-rows-flow-6 gap-2 order-2 lg:order-1'>
           <p className='uppercase tracking-[0.05em] leading-[1.7] font-[700] text-titleColor dark:text-textColorDark flex items-center justify-center sm:justify-start'>
             Hello,
-            <span className='block text-large text-primaryColor'>
+            <span className='block text-large text-blue'>
               &nbsp;My Name Is
             </span>
           </p>
 
           <h1 className='uppercase tracking-[0.05em] text-h2Size sm:text-[70px] font-[700] flex sm:items-start justify-center items-center drop-shadow-textShadow leading-[1.2] mt-[15px] flex-col gap-2 sm:gap-0'>
-            <span className='text-primaryColor'>Krishna&nbsp;&nbsp;T.&nbsp;</span>
+            <span className='text-blue'>Krishna&nbsp;&nbsp;T.&nbsp;</span>
             <span></span>
           </h1>
 
@@ -104,8 +104,8 @@ const Home = () => {
 
           <div className='flex gap-[70px] font-[700] uppercase tracking-[0.05em] items-center justify-center mx-[-40px] sm:mx-0 sm:justify-start'>
             <a
-              href='https://drive.google.com/file/d/16_weWOvE1d-vLdFSbwwkV8LwaI2ucFpw/view?usp=drivesdk'
-              download='ResumeOfImanKhaki.pdf'
+              href='https://drive.google.com/file/d/1v_Nz-efMSGeqTeiqEFtoTdt0NkZ4nV9Z/view?usp=sharing'
+              download='Krishna-Tripathi-Backend-Developer.pdf'
               target="_blank"
               className='text-titleColor dark:text-titleColorDark text-tiny grid place-items-center border-[2px] border-solid border-borderColor dark:border-borderColorDark p-[20px] rounded-[56px] shadow-[5px_5px_rgba(0,0,0,0.2)] dark:shadow-[5px_5px_rgba(255,255,255,0.1)] relative before:content-[""] before:absolute before:inset-[2px] before:bg-primaryColor before:rounded-[56px] before:scale-[0.3] before:blur-[10px] before:opacity-0 before:transition-all before:duration-[0.6s] before:ease-[cubic-bezier(0.3,0,0.3,1)] before:z-[0] hover:before:scale-[1] hover:before:blur-0 hover:before:opacity-100'
             >
@@ -126,7 +126,7 @@ const Home = () => {
         </div>
         {/* right side */}
         <div className='relative top-0 right-0 sm:translate-y-[-9%] rounded-full bg-primaryColor w-full max-w-[680px] lg:order-2'>
-          <div className='bg-gradient-180 from-[#33cca3] via-[#00ffbb] to-[#6bff6b] z-[1] pb-[100%] rounded-full'>
+          <div className='bg-gradient-180 from-[#2B8DFC] via-[#00ffbd] to-[#6bff6c] z-[1] pb-[100%] rounded-full'>
             <motion.img
               initial={{ bottom: '50px' }}
               whileInView={{ bottom: '-1px' }}
